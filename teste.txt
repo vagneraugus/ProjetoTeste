@@ -1,2 +1,50 @@
-1ª linha
-2ª linha
+comandos git para lembrar
+	git diff:
+		mostra as alterações no arquivo antes mesmo de fazer commit.
+
+	git diff --name-only:
+		mostra apenas o nome do arquivo que foi editado.
+
+	git log:
+		exibe informações do usuário e ultimas alterações.
+
+	git log --author="nom de quem fez commit"
+
+	git shortlog:
+		mostra todos os que fizeram commite em ordem alfabetica
+		quantos commites feitos e lista os commites.
+
+	git shortlog -sn:
+		mostra todos os usuarios que fizeram commite e quantidade de commits.
+
+	git log --graph:
+		mostra em forma de grafico o que esta acontecendo no projeto.
+
+	git show cola a hashing:
+		consegue ver o que foi acrescentado no projeto usando esse commit.
+
+	git reset --hard hashing:
+		desfaz tudo o que foi feito no commit
+
+	
+1- passo 
+	git init "nome da pasta":
+		inicia o projeto no github, é cria dentro da "nome da pasta" um arquivo.git.
+		//assim que adicionado algum arquivo na pasta entra a area de untracked git ainda sabe desse arquivo.
+2- passo
+	git add "nome do arquivo.extensao", ou
+	git add .
+		adiciona o "nome do arquivo.extensao" na area de unmodified, nao foi modificado ainda nao foi enviado para o git, se for editado fica como modified e passa para staged.
+
+3- passo
+	git commit -m "frase de lembrete":
+		envia o arquivo editado para o github;
+		se o arquivo for modificado primeiro tem que ser add senao nao comita;
+
+4- passo
+	git status:
+		verifica a situação da pasta se foi editao/comitado arquivos.
+
+		sdjflajsdlkjfsal
+
+bolachuda
