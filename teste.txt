@@ -1,12 +1,12 @@
 comandos git para lembrar
 	git diff:
-		mostra as alterações no arquivo antes mesmo de fazer commit.
+		mostra as alteraÃ§Ãµes no arquivo antes mesmo de fazer commit.
 
 	git diff --name-only:
 		mostra apenas o nome do arquivo que foi editado.
 
 	git log:
-		exibe informações do usuário e ultimas alterações.
+		exibe informaÃ§Ãµes do usuÃ¡rio e ultimas alteraÃ§Ãµes.
 
 	git log --author="nom de quem fez commit"
 
@@ -29,7 +29,7 @@ comandos git para lembrar
 	
 1- passo 
 	git init "nome da pasta":
-		inicia o projeto no github, é cria dentro da "nome da pasta" um arquivo.git.
+		inicia o projeto no github, Ã© cria dentro da "nome da pasta" um arquivo.git.
 		//assim que adicionado algum arquivo na pasta entra a area de untracked git ainda sabe desse arquivo.
 2- passo
 	git add "nome do arquivo.extensao", ou
@@ -43,8 +43,8 @@ comandos git para lembrar
 
 4- passo
 	git status:
-		verifica a situação da pasta se foi editao/comitado arquivos.
+		verifica a situaÃ§Ã£o da pasta se foi editao/comitado arquivos.
 
 		sdjflajsdlkjfsal
 
-bolachuda
+bolachuda irru
